@@ -1,0 +1,15 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-akvamania-staging-122047-authRole",
+      "UnauthRoleArn": "arn:aws:iam::497076048662:role/amplify-akvamania-staging-122047-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::497076048662:role/amplify-akvamania-staging-122047-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-akvamania-staging-122047-deployment",
+      "UnauthRoleName": "amplify-akvamania-staging-122047-unauthRole",
+      "StackName": "amplify-akvamania-staging-122047",
+      "StackId": "arn:aws:cloudformation:eu-west-1:497076048662:stack/amplify-akvamania-staging-122047/1ee56140-d2b7-11ec-b7e7-069ca99d4761",
+      "AmplifyAppId": "d22959va4uvu3q"
+    }
+  }
+}
