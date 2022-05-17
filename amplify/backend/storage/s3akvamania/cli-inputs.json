@@ -1,0 +1,16 @@
+{
+  "resourceName": "s3akvamania",
+  "policyUUID": "b2499e54",
+  "bucketName": "akvamaniae8af70a7e2fb4aa78be66cf976d01d6e",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "READ"
+  ],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}

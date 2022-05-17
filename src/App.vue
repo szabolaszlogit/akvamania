@@ -1,37 +1,19 @@
 <script setup>
-
-  import { Authenticator } from "@aws-amplify/ui-vue";
-  import "@aws-amplify/ui-vue/styles.css";
-
-  import Amplify from 'aws-amplify';
-  import awsconfig from './aws-exports';
-
-  import HelloWorld from './components/HelloWorld.vue'
-
-  Amplify.configure(awsconfig);
-
-
-
+import HelloWorld from "./components/HelloWorld.vue";
 </script>
 
 <template>
+  <router-link to="/">Go to Home</router-link>
+  <router-link to="/auth">Go to Auth</router-link>
+  <router-link to="/add">Go to AddProduct</router-link>
+  
 
-  <authenticator>
-    <template v-slot="{ user, signOut }">
-      <h1>Hello {{ user.username }}!</h1>
-      <button @click="signOut">Sign Out</button>
-    </template>
-  </authenticator>
+  <router-view></router-view>
 
-  <img alt="Vue logo" src="./assets/logo.png" />
+  <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
   <HelloWorld msg="Hello Vue 3 + Vite" />
 </template>
 
-<style>
+<style></style>
 
-</style>
-
-<script setup>
-
-</script>
-
+<script setup></script>

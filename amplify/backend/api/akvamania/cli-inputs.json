@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "akvamania",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "C:\\www\\akvamania\\amplify\\backend\\api\\akvamania\\schema.graphql",
+    "defaultAuthType": {
+      "mode": "AMAZON_COGNITO_USER_POOLS",
+      "cognitoUserPoolId": "authakvamania4202fc45"
+    },
+    "additionalAuthTypes": [
+      {
+        "mode": "API_KEY",
+        "expirationTime": 365,
+        "apiKeyExpirationDate": "2023-05-16T17:54:03.703Z",
+        "keyDescription": "mycustomapikey"
+      }
+    ],
+    "conflictResolution": {}
+  }
+}

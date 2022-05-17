@@ -10,7 +10,8 @@
   "dependencies": {
     "@aws-amplify/ui-vue": "^2.4.4",
     "aws-amplify": "^4.3.22",
-    "vue": "^3.2.25"
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.15"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.3.3",

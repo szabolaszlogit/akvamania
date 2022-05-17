@@ -1,6 +1,13 @@
 export type AmplifyDependentResourcesAttributes = {
-    "auth": {
+    "api": {
         "akvamania": {
+            "GraphQLAPIKeyOutput": "string",
+            "GraphQLAPIIdOutput": "string",
+            "GraphQLAPIEndpointOutput": "string"
+        }
+    },
+    "auth": {
+        "akvamania4202fc45": {
             "IdentityPoolId": "string",
             "IdentityPoolName": "string",
             "UserPoolId": "string",
@@ -8,6 +15,12 @@ export type AmplifyDependentResourcesAttributes = {
             "UserPoolName": "string",
             "AppClientIDWeb": "string",
             "AppClientID": "string"
+        }
+    },
+    "storage": {
+        "s3akvamania": {
+            "BucketName": "string",
+            "Region": "string"
         }
     }
 }
