@@ -1,6 +1,12 @@
 import { createApp } from "vue";
 import App from "./App.vue";
 
+import  "./assets/css/reset.css"
+import  "./assets/css/global.css"
+import  "./assets/css/navbar.css"
+import  "./assets/css/phone.css"
+import  "./assets/css/computer.css"
+
 import router from "./router";
 
 /* https://docs.amplify.aws/start/getting-started/setup/q/integration/vue/#install-as-a-global-plugin-optional */

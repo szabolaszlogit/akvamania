@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+
+:root{
+  --navwhite: #f9f9f9;
+  --navblack: #36383F;
+  --navgrey: #85888C;
+}
+
+.test {
+  font-family: "Poppins";
+}
+.test2 {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+.test3 {
+  font-family: "Open Sans";
+}
