@@ -7,11 +7,14 @@ body {
   font-family: "Open Sans", Arial, sans-serif;
 }
 
+a {
+  text-decoration: none;   
+}
 
 :root{
   --navwhite: #f9f9f9;
-  --navblack: #36383F;
-  --navgrey: #85888C;
+  --navdark: #004643;
+  --navgrey: #475d5b;
 }
 
 .test {
