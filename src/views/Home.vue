@@ -1,7 +1,8 @@
 <script setup>
+import Cta from "../components/Cta.vue";
 
 </script>
 
 <template>
- home views
+<Cta />
 </template>
