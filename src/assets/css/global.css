@@ -1,20 +1,25 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
-
 body {
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
 }
 
 a {
-  text-decoration: none;   
+  text-decoration: none;
 }
 
-:root{
+:root {
   --navwhite: #f9f9f9;
-  --navdark: #004643;
-  --navgrey: #475d5b;
+  --navdark: #36383f;
+  --navactive: #faedc4;
+  --secondary: #616161;
+  --success: #22c55e;
+  --info: #3b82f6;
+  --white: #FFF;
+  --btnborder-radius: 6px;
+  --light: #F8F9FA;
 }
 
 .test {
@@ -26,4 +31,75 @@ a {
 
 .test3 {
   font-family: "Open Sans";
+}
+
+/* productCard */
+
+.product {
+  background-color: burlywood;;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.product .content { 
+  padding: 5px
+}
+
+.product .coverimg {
+  width: 100vw;
+}
+.coverimg > img {
+  width: 100vw;
+  height: 40vw;
+  object-fit: cover;
+}
+
+@media only screen and (min-width: 768px) {
+  .product {
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    width: 60vw;
+    height: 25vw;
+    margin: 10px auto;
+  }
+  .product .content {
+    width: 30vw;
+    padding-left: 10px;
+  }
+  .product .coverimg {
+    width: 30vw;
+
+    background-color: #616161;
+  }
+  .coverimg > img {
+    width: 30vw;
+    height: 25vw;
+    object-fit: cover;
+  }
+}
+
+/* Button  */
+button{
+  font-family: Roboto, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont;
+font-weight: 600;
+color: #ffffff;
+background:  var(--info);
+border: 1px solid var(--info);
+padding: 0.75rem 1.25rem;
+font-size: 1rem;
+transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+border-radius: 6px;
+box-sizing: border-box;
+margin: 0;
+display: inline-flex;
+cursor: pointer;
+user-select: none;
+align-items: center;
+vertical-align: bottom;
+text-align: center;
+overflow: hidden;
 }

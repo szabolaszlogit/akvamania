@@ -1,0 +1,134 @@
+[
+  {
+    "label": "Minden kategória",
+    "items": [
+      { "label": "Minden kategória", "value": "Minden kategória" }
+    ]
+  },
+  {
+    "label": "Akvárium",
+    "items": [
+      { "label": "20 literig", "value": "20 literig" },
+      { "label": "30 literig", "value": "30 literig" },
+      { "label": "60 literig", "value": "60 literig" },
+      { "label": "110 literig", "value": "110 literig" },
+      { "label": "110 + literig", "value": "110 + liter" }
+    ]
+  },
+  {
+    "label": "Élőlény",
+    "items": [
+      { "label": "Halak", "value": "Halak" },
+      { "label": "Csigák", "value": "Csigák" },
+      { "label": "Garnélák", "value": "Garnélák" },
+      { "label": "Egyéb élőlény", "value": "Egyéb élőlény" }
+    ]
+  },
+  {
+    "label": "Növény",
+    "items": [
+      { "label": "Halak", "value": "Halak" },
+      { "label": "Csigák", "value": "Csigák" },
+      { "label": "Garnélák", "value": "Garnélák" },
+      { "label": "Egyéb élőlény", "value": "Egyéb élőlény" }
+    ]
+  },
+  {
+    "label": "Növényápolás",
+    "items": [
+      { "label": "Folyékony növénytáp", "value": "Folyékony növénytáp" },
+      { "label": "Táptabletta", "value": "Táptabletta" }
+    ]
+  },
+  {
+    "label": "Szűrés",
+    "items": [
+      { "label": "Külső szűrő", "value": "Külső szűrő" },
+      { "label": "Belső szűrő", "value": "Belső szűrő" },
+      { "label": "Akasztós szűrő", "value": "Akasztós szűrő" },
+      { "label": "Szűrőanyag", "value": "Szűrőanyag" },
+      { "label": "Szűrő alkatrész", "value": "Szűrő alkatrész" },
+      { "label": "Skimmer", "value": "Skimmer" },
+      { "label": "Szivattyú, levegőpumpa", "value": "Szivattyú, levegőpumpa" },
+      { "label": "Szűrés – egyéb", "value": "Szűrés – egyéb" }
+    ]
+  },
+  {
+    "label": "Fűtés",
+    "items": [
+      { "label": "Belső fűtő", "value": "Belső fűtő" },
+      { "label": "Külső fűtő", "value": "Külső fűtő" }
+    ]
+  },
+  {
+    "label": "Hűtés",
+    "items": [{ "label": "Akvárium hűtés", "value": "Akvárium hűtés" }]
+  },
+  {
+    "label": "RO berendezés",
+    "items": [
+      { "label": "RO készülék", "value": "RO készülék" },
+      { "label": "RO tartozék", "value": "RO tartozék" }
+    ]
+  },
+  {
+    "label": "Világítás",
+    "items": [
+      { "label": "Led", "value": "Led" },
+      { "label": "Fénycső", "value": "Fénycső" },
+      { "label": "Egyéb világítás", "value": "Egyéb világítás" },
+      { "label": "Világítás tartozék", "value": "Világítás tartozék" }
+    ]
+  },
+  {
+    "label": "Aljzat",
+    "items": [
+      { "label": "Táptalaj", "value": "Táptalaj" },
+      { "label": "Általános talaj", "value": "Általános talaj" },
+      { "label": "Dekortalaj", "value": "Dekortalaj" },
+      { "label": "Egyéb talaj", "value": "Egyéb talaj" }
+    ]
+  },
+  {
+    "label": "Dekoráció",
+    "items": [
+      { "label": "Fa", "value": "Fa" },
+      { "label": "Kő", "value": "Kő" },
+      { "label": "Műanyag", "value": "Műanyag" },
+      { "label": "Háttér", "value": "Háttér" }
+    ]
+  },
+  {
+    "label": "CO2",
+    "items": [
+      { "label": "CO2 szett", "value": "CO2 szett" },
+      { "label": "CO2 tartozék", "value": "CO2 tartozék" }
+    ]
+  },
+  {
+    "label": "Vízminőség",
+    "items": [
+      { "label": "Vízkezelő", "value": "Vízkezelő" },
+      { "label": "Vízteszt", "value": "Vízteszt" }
+    ]
+  },
+  {
+    "label": "Vízminőség",
+    "items": [
+      { "label": "Vízkezelő", "value": "Vízkezelő" },
+      { "label": "Vízteszt", "value": "Vízteszt" }
+    ]
+  },
+  {
+    "label": "Kiegészítők",
+    "items": [
+      { "label": "Gyógyszer", "value": "Gyógyszer" },
+      { "label": "Haleleség", "value": "Haleleség" },
+      { "label": "Bútor", "value": "Bútor" },
+      { "label": "Üvegtermék", "value": "Üvegtermék" },
+      { "label": "Kellékek", "value": "Kellékek" },
+      { "label": "Vezérlés, automatika", "value": "Vezérlés, automatika" },
+      { "label": "Minden más", "value": "Minden más" }
+    ]
+  }
+]

@@ -10,12 +10,12 @@ const router = createRouter({
     {
       path: "/auth",
       name: "Auth",
-      component: () => import("../auth/Auth.vue"),
+      component: () => import("@/auth/Auth.vue"),
     },
     {
       path: "/add",
       name: "AddProduct",
-      component: () => import("../api/AddProduct.vue"),
+      component: () => import("@/api/AddProduct.vue"),
     },
   ],
 });

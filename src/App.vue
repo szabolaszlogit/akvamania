@@ -1,12 +1,14 @@
 <script setup>
 import HelloWorld from "./components/HelloWorld.vue";
 import Navbar from "./components/Navbar.vue";
-import Cta from "./views/Cta.vue";
 </script>
 
 <template>
   <Navbar />
-  <Cta />
+    <router-view></router-view>
+
+  <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
+  <HelloWorld msg="Hello Vue 3 + Vite" />
   <div class="container">
     <div class="test">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
@@ -350,10 +352,7 @@ import Cta from "./views/Cta.vue";
     <h1>Ez a H1 fsd</h1>
   </div>
 
-  <router-view></router-view>
 
-  <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
-  <HelloWorld msg="Hello Vue 3 + Vite" />
 </template>
 
 <style></style>

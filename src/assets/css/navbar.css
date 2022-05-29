@@ -2,7 +2,6 @@
   font-family: "Poppins", sans-serif;
   position: sticky;
   top: 0;
-  margin-bottom: 10px;
   background-color: var(--navdark);
 }
 
@@ -18,7 +17,7 @@
 }
 
 .logotitle {
-  color: white;
+  color: var(--navwhite);
   font-size: 24px;
 }
 .logo img {
@@ -32,14 +31,14 @@ nav {
   position: fixed;
   top: 60px;
   right: 0px;
-  background-color: var(--navgrey);
+  background-color: var(--navdark);
   overflow: hidden;
   max-height: 0;
   transition: max-height 0.5s ease-out;
 }
 
 nav a {
-  color: white;
+  color: var(--navwhite);
   cursor: pointer;
   line-height: 2;
   padding: 0 0px 0 40px;
@@ -48,7 +47,7 @@ nav a {
 
 .menu li .router-link-active {
   color: #000;
-  background-color: #84a98c;
+  background-color: var(--navactive);
   display: block;
 }
 
@@ -141,19 +140,19 @@ nav ul {
     display: inline;
   }
   nav a {
-    color: white;
+    color: var(--navwhite);
     cursor: pointer;
     line-height: 2;
     margin: 0 10px 0 0px;
-    padding:0;
+    padding: 0;
     display: inline;
   }
 
- .menu li .router-link-active {
+  .menu li .router-link-active {
     display: inline;
-    color: white;
+    color: var(--navwhite);
     background-color: transparent;
-    border-bottom: 3px solid #f9dd94;
+    border-bottom: 3px solid var(--navactive);
   }
 
   nav ul {
