@@ -35,7 +35,7 @@ const btnGroupChoice2 = ref('')
 <p>btnGroupChoice from emit: {{btnGroupChoice2}}</p>
 <Zip />
 <br>
-<button>Kódküldés</button>
+<button>Kósssdküldés</button>
   <SearchBox />
   <ProductsCard>
     <template v-slot:coverimg>
