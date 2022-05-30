@@ -2,7 +2,7 @@
 import { ref } from "vue";
 import data from "@/assets/cat.json";
 defineEmits(["sendCat"]);
-const cat = ref("");
+const cat = ref("Minden kategória");
 const list = ref([]);
 list.value = data;
 </script>
@@ -17,4 +17,6 @@ list.value = data;
   </select>
 </template>
 
-<style></style>
+<style scoped>
+
+</style>

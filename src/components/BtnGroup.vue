@@ -16,17 +16,8 @@ function changeBcg($event) {
 onMounted(() => {
   let choice = props.choices[0];
   let btn = document.querySelector(`[data-choice="${choice}"]`);
-  //  let btn =  document.querySelector('[data-choice = "${choice}"]');
   btn.click();
 });
-
-function autoclick(params) {
-  // console.log(props.choices[0]);
-  //  let choice = props.choices[0]
-  // ✅ Get first element that has data-id attribute set
-  let btn = document.querySelector("[data-choice]");
-  btn.click();
-}
 </script>
 
 <template>
@@ -40,7 +31,6 @@ function autoclick(params) {
       {{ choice }}
     </button>
   </div>
-  {{ choices }} <button v-on:click="autoclick">dsaasds</button>
 </template>
 
 <style scoped>
