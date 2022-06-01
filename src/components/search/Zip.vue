@@ -65,17 +65,25 @@ const selectedTelepules = ref("");
     <option v-for="megye in megyek" v-bind:value="megye">{{ megye }}</option>
   </select>
 
-  <label for="járások">Válasszd ki a járást:</label>
+
+<div v-if="selectedMegye && selectedMegye != 'Országosan'">
+   <label for="járások">Válasszd ki a járást:</label>
   <select name="járások" v-model="selectedJaras">
     <option v-for="jaras in jarasok" v-bind:value="jaras">{{ jaras }}</option>
-  </select>
+  </select> 
+</div>
 
-  <label for="települések">Válasszd ki a települést:</label>
+
+
+<div v-if="selectedJaras">
+   <label for="települések">Válasszd ki a települést:</label>
   <select name="települések" v-model="selectedTelepules">
     <option v-for="telepules in telepulesek" v-bind:value="telepules">
       {{ telepules }}
     </option>
-  </select>
+  </select> 
+</div>
+
 </template>
 
 <style></style>

@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"); */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
 body {
@@ -17,9 +17,10 @@ a {
   --secondary: #616161;
   --success: #22c55e;
   --info: #3b82f6;
-  --white: #FFF;
+  --white: #fff;
+  --light: #f8f9fa;
+  --dark: #343a40;
   --btnborder-radius: 6px;
-  --light: #F8F9FA;
 }
 
 .test {
@@ -33,10 +34,33 @@ a {
   font-family: "Open Sans";
 }
 
+h1 {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  color: var(--info);
+  box-sizing: border-box;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  padding: 1rem;
+}
+
+/* Container */
+.container{
+  width: 100vw;
+  margin: 0 auto
+}
+@media only screen and (min-width: 769px){
+  .container{
+      width: 1000px;
+      margin: 0 auto
+  }
+}
+
+
 /* productCard */
 
 .product {
-  background-color: burlywood;;
+  background-color: burlywood;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -44,8 +68,8 @@ a {
   margin: 15px 0;
 }
 
-.product .content { 
-  padding: 5px
+.product .content {
+  padding: 5px;
 }
 
 .product .coverimg {
@@ -83,33 +107,37 @@ a {
 }
 
 /* Button  */
-button{
-  font-family: Roboto, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont;
-font-weight: 600;
-color: #ffffff;
-background:  var(--info);
-border: 1px solid var(--info);
-padding: 0.75rem 1.25rem;
-font-size: 1rem;
-transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
-border-radius: 6px;
-box-sizing: border-box;
-margin: 0;
-display: inline-flex;
-cursor: pointer;
-user-select: none;
-align-items: center;
-vertical-align: bottom;
-text-align: center;
-overflow: hidden;
+button {
+  margin: 10px 0;
+  font-family: Roboto, ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont;
+  font-weight: 600;
+  color: #ffffff;
+  background: var(--info);
+  border: 1px solid var(--info);
+  padding: 0.75rem 1.25rem;
+  font-size: 1rem;
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s,
+    box-shadow 0.2s;
+  border-radius: 6px;
+  box-sizing: border-box;
+  display: inline-flex;
+  cursor: pointer;
+  user-select: none;
+  align-items: center;
+  vertical-align: bottom;
+  text-align: center;
+  overflow: hidden;
 }
 
 /* Select */
 select {
-  display: inline-block;
+  width: 100%;
+  display: block;
   box-sizing: border-box;
   border-radius: 6px;
-  padding: 0.5em 2em 0.5em 0.5em;
+  width: 100%;
+  padding: 0.75rem 1.25rem;
   border: 1px solid var(--info);
   font: inherit;
   line-height: inherit;
@@ -122,4 +150,71 @@ select {
     linear-gradient(135deg, currentColor 50%, transparent 50%);
   background-position: right 15px top 1em, right 11px top 1em;
   background-size: 5px 5px, 5px 5px;
+}
+
+@media only screen and (min-width: 768px) {
+  select {
+    width: 15vw;
+  }
+}
+ 
+label:not(.hamb) {
+  display: block;
+  font-family: Roboto, ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont;
+  color: var(--dark);
+  font-weight: 600;
+  margin: 2em 0 0 10px;
+}
+
+/* Input text */
+input {
+  width: 100%;
+  font-weight: normal;
+  font-size: 1rem;
+  padding: 0.75rem 0.75rem;
+  border: 1px solid #ced4da;
+  appearance: none;
+  border-radius: 6px;
+}
+
+input:focus {
+  background-color: lightblue;
+}
+
+/* Input text */
+textarea {
+  width: 100%;
+  font-weight: normal;
+  font-size: 1rem;
+  padding: 0.75rem 0.75rem;
+  border: 1px solid #ced4da;
+  appearance: none;
+  border-radius: 6px;
+}
+
+textarea:focus {
+  background-color: lightblue;
+}
+
+/* remove arrow */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+/* Info box */
+.info {
+  background: rgba(76, 175, 80, 0.3);
+  padding: 10px;
+  margin:20px 0;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-left: 5px solid var(--info);
+  font-weight: 300;
+  color:black;
 }

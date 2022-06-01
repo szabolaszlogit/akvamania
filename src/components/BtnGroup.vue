@@ -36,6 +36,7 @@ onMounted(() => {
 <style scoped>
 .btn-group {
   display: flex;
+  margin: 10px
 }
 .btn-group button {
   background-color: var(--light);
@@ -45,7 +46,7 @@ onMounted(() => {
   cursor: pointer;
   float: left;
   border: 1px solid #ced4da;
-  -webkit-tap-highlight-color: transparent;
+  /* -webkit-tap-highlight-color: transparent; */
   transition: background-color 1s ease-out;
   transition: hover 1s ease-out;
   border-radius: 0;

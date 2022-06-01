@@ -4,7 +4,7 @@ import Cta from "@/components/Cta.vue";
 import ProductsCard from "@/components/ProductsCard.vue";
 import Cat from "@/components/search/Cat.vue";
 import SearchBox from "@/components/SearchBox.vue";
-import BtnGroup from "@/components/BtnGroup.vue";
+import Input from "@/components/Input.vue";
 import Zip from "@/components/search/Zip.vue";
 
 function getEmittedCat(data) {
@@ -13,27 +13,16 @@ cat.value = data
 const cat = ref('')
 
 
-function getEmittedBtnGroupChoice(data) {
-btnGroupChoice.value = data
-}
-const btnGroupChoice = ref('')
-
-function getEmittedBtnGroupChoice2(data) {
-btnGroupChoice2.value = data
-}
-const btnGroupChoice2 = ref('')
 </script>
 
 <template>
   <Cta />
+  <Input />
   <Cat @send-cat="getEmittedCat" />
+   <Zip />
+
   <p>Cat from emit: {{cat}}</p>
 
-  <BtnGroup  @send-choice="getEmittedBtnGroupChoice" :choices="[234, 266,111]" />
-  <BtnGroup  @send-choice="getEmittedBtnGroupChoice2" :choices="['Keres', 'Kínál']" />
-  <p>btnGroupChoice from emit: {{btnGroupChoice}}</p>
-<p>btnGroupChoice from emit: {{btnGroupChoice2}}</p>
-<Zip />
 <br>
 <button>Kósssdküldés</button>
   <SearchBox />

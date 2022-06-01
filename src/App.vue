@@ -1,5 +1,4 @@
 <script setup>
-import HelloWorld from "./components/HelloWorld.vue";
 import Navbar from "./components/Navbar.vue";
 </script>
 
@@ -8,7 +7,6 @@ import Navbar from "./components/Navbar.vue";
     <router-view></router-view>
 
   <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
-  <HelloWorld msg="Hello Vue 3 + Vite" />
   <div class="container">
     <div class="test">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
