@@ -4,8 +4,6 @@ import App from "./App.vue";
 import  "./assets/css/reset.css"
 import  "./assets/css/global.css"
 import  "./assets/css/navbar.css"
-import  "./assets/css/phone.css"
-import  "./assets/css/computer.css"
 
 import router from "./router";
 

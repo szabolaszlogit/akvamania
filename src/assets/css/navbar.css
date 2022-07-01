@@ -2,7 +2,7 @@
   font-family: "Poppins", sans-serif;
   position: sticky;
   top: 0;
-  background-color: var(--navdark);
+  background-color: var(--dark);
 }
 
 .uppernavbar {
@@ -17,7 +17,7 @@
 }
 
 .logotitle {
-  color: var(--navwhite);
+  color: var(--light);
   font-size: 24px;
 }
 .logo img {
@@ -31,14 +31,14 @@ nav {
   position: fixed;
   top: 60px;
   right: 0px;
-  background-color: var(--navdark);
+  background-color: var(--dark);
   overflow: hidden;
   max-height: 0;
   transition: max-height 0.5s ease-out;
 }
 
 nav a {
-  color: var(--navwhite);
+  color: var(--light);
   cursor: pointer;
   line-height: 2;
   padding: 0 0px 0 40px;
@@ -47,7 +47,7 @@ nav a {
 
 .menu li .router-link-active {
   color: #000;
-  background-color: var(--navwhite);
+  background-color: var(--light);
   display: block;
 }
 
@@ -60,7 +60,7 @@ nav ul {
 }
 
 .hamb-line {
-  background: var(--navwhite);
+  background: var(--light);
   display: block;
   height: 4px;
   position: relative;
@@ -69,7 +69,7 @@ nav ul {
 
 .hamb-line::before,
 .hamb-line::after {
-  background: var(--navwhite);
+  background: var(--light);
   content: "";
   display: block;
   height: 100%;
@@ -115,7 +115,7 @@ nav ul {
     margin: 0 10px 0 10px;
   }
 
-  .navbar .container {
+  .navbar {
     display: flex;
     justify-content: space-around;
     padding: 5px 0 5px 0;
@@ -133,14 +133,14 @@ nav ul {
     position: static;
     float: right;
     width: fit-content;
-    background-color: var(--navdark);
+    background-color: var(--dark);
   }
 
   .menu li {
     display: inline;
   }
   nav a {
-    color: var(--navwhite);
+    color: var(--light);
     cursor: pointer;
     line-height: 2;
     margin: 0 10px 0 0px;
@@ -150,9 +150,9 @@ nav ul {
 
   .menu li .router-link-active {
     display: inline;
-    color: var(--navwhite);
+    color: var(--light);
     background-color: transparent;
-    border-bottom: 3px solid var(--navwhite);
+    border-bottom: 3px solid var(--light);
   }
 
   nav ul {

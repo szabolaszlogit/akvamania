@@ -11,11 +11,12 @@ a {
 }
 
 :root {
-  --navwhite: #f9f9f9;
   --navdark: #36383f;
-  --navactive: #faedc4;
+  --primary: #0d6efd;
   --secondary: #616161;
   --success: #22c55e;
+  --danger: #dc3545;
+  --warning: #ffc107;
   --info: #3b82f6;
   --white: #fff;
   --light: #f8f9fa;
@@ -45,17 +46,17 @@ h1 {
 }
 
 /* Container */
-.container{
+.container {
   width: 100vw;
-  margin: 0 auto
+  margin: 0 auto;
+  padding: 20px;
 }
-@media only screen and (min-width: 769px){
-  .container{
-      width: 1000px;
-      margin: 0 auto
+@media only screen and (min-width: 769px) {
+  .container {
+    width: 1000px;
+    margin: 0 auto;
   }
 }
-
 
 /* productCard */
 
@@ -152,12 +153,8 @@ select {
   background-size: 5px 5px, 5px 5px;
 }
 
-@media only screen and (min-width: 768px) {
-  select {
-    width: 15vw;
-  }
-}
- 
+
+
 label:not(.hamb) {
   display: block;
   font-family: Roboto, ui-sans-serif, system-ui, -apple-system,
@@ -182,6 +179,9 @@ input:focus {
   background-color: lightblue;
 }
 
+
+
+
 /* Input text */
 textarea {
   width: 100%;
@@ -197,6 +197,8 @@ textarea:focus {
   background-color: lightblue;
 }
 
+
+
 /* remove arrow */
 input[type="number"] {
   -moz-appearance: textfield;
@@ -211,10 +213,10 @@ input::-webkit-inner-spin-button {
 .info {
   background: rgba(76, 175, 80, 0.3);
   padding: 10px;
-  margin:20px 0;
+  margin: 20px 0;
   border-top-right-radius: 6px;
   border-bottom-right-radius: 6px;
   border-left: 5px solid var(--info);
   font-weight: 300;
-  color:black;
+  color: black;
 }

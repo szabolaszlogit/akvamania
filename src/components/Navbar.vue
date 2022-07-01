@@ -5,7 +5,7 @@ const checked = ref(false);
 
 <template>
   <div class="navbar">
-    <div class="container">
+   
       <input
         class="side-menu"
         type="checkbox"
@@ -44,7 +44,7 @@ const checked = ref(false);
           </li>
         </ul>
       </nav>
-    </div>
+    
   </div>
 </template>
 

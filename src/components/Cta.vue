@@ -18,7 +18,7 @@
 
 <style scoped>
 .cta {
-  background-color: var(--navactive);
+  background-color: var(--light);
 }
 .container {
   display: flex;

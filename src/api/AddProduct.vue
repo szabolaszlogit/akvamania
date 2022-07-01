@@ -98,6 +98,7 @@ async function uploadImage(event) {
     <input type="email" name="Email" />
     <label for="Telefon">Telefon</label>
     <input type="tel" name="Telefon" />
+    <br>
     <button>Következő lépés</button>
   </div>
 
@@ -116,14 +117,13 @@ async function uploadImage(event) {
 
 <style scoped>
 .container {
-  padding: 20px;
   background: var(--light);
 }
 
 @media only screen and (min-width: 768px) {
   .container {
-    padding: 20px;
-    max-width: 50vw;
+    background: var(--light);
+    max-width: 30%;
   }
 }
 </style>
